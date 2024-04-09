@@ -1,0 +1,473 @@
+/* Redefinição de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Estilo base da página */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  /*efeito ao passar o cursor sobre os botões */
+  button{
+    cursor: pointer;
+  }
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Títulos */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  }
+  
+  /* Parágrafos */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Imagens */
+  img {
+    max-width: 15%;
+  }
+  
+  .container-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  
+/* Cabeçalho */
+  header {
+    background-color: #007bff;
+    border-bottom: 1px solid #ddd;
+    color: black
+  }
+  
+/* Menu */
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: underline;
+    padding: 0;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+  }
+  
+  .menu {
+    background-color: white;
+    margin-left: 28.5%;
+    width: 43%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px #00000027;
+  }
+/*menu home, sobre, servicos...*/
+.menu a{
+    text-align: center;
+    align-items: center;
+    margin-left: 16%;
+  } 
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+
+
+  .container-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #007bff;
+    border-bottom: 1px solid #ddd;
+    color: black
+  }
+
+
+/* Seção de destaque */
+#destaque {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 100px;
+  }
+  
+  #destaque {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+
+
+
+/*Seção de compras- CARRINHO*/
+.compras h1{
+    text-align: center;
+    border: 1px;
+  }
+
+  .compras{
+    background-color: #00000013;
+  }
+
+  .produtos{
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    width: 55%;
+    height: 100%;
+    background-color: #ccc;
+    text-align: center;
+    margin: 40px 20px;
+    padding: 10px;
+  } 
+  #proutos{
+    margin: 10px;
+    margin-right: 15%;
+    border-radius: black;
+    padding: 10px;
+  }
+
+  #preco{
+    margin: 10px;
+    margin-right: 15%;
+    padding: 10px;
+  }
+  #quantidade{
+    margin: 10px;
+    margin-right: 5%;
+    padding: 10px;
+  }
+  #total{
+    margin: 10px;
+    margin-left: 20%;
+    padding: 10px;
+  }
+
+
+
+  .produtos {
+    box-shadow: 5px 5px #00000027;
+    width: 70%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  
+  }
+
+/*Produtos do carrinho*/
+.produto1 {
+    display: flex;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 10px;
+  }
+  .produto1 img{
+    display: block;
+    text-align: left;
+    align-items: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+  }
+
+  .produto1 h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    place-items: end;
+    font-size: 15px;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: -142px;
+
+  }
+  .produto1Preço {
+    display: flex;
+    flex-direction: row; /* Organiza os itens horizontalmente */
+    justify-content: space-between; /* Distribui itens com espaços */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    text-align: center;
+    margin-left: 110px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+/*Parte de Quantidade*/
+.QuantidadeDeProduto{
+  display: flex;
+  flex-direction: row; /* Organiza os itens horizontalmente */
+  justify-content: space-between; /* Distribui itens com espaços */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center;
+  margin-left: 170px;
+}
+/*-------------------*/
+
+/*Parte do Valor Total da Compra*/
+.ValorTotalDaCompra{
+  display: flex;
+  flex-direction: row; /* Organiza os itens horizontalmente */
+  justify-content: space-between; /* Distribui itens com espaços */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center;
+  margin-left: 243px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 50px;
+}
+/*------------------------------*/
+
+/*Parte de (-)*/
+.btnDiminuir {
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px; /*espaço entre o menos(-) e o (+)*/ 
+  border-radius: 10px;
+  padding-bottom: 18px;
+  height: 35px; /*altura*/
+  width: 20px; /*largura*/
+  position: relative; /*posição original de onde estava localizado*/
+  bottom: 7px; /*posição vertical: mover para cima*/
+}
+/*Efeito do botão (-)*/
+.btnDiminuir:hover{
+  background: #b30000;
+}
+/*Parte de qtd*/
+.qtd {
+  flex-direction: row; /* Organiza os itens horizontalmente */
+  justify-content: space-between; /* Distribui itens com espaços */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center;
+
+}
+
+/*Parte de (+)*/
+.btnAumentar {
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px; /*espaço entre o menos(+) e o (-)*/ 
+  border-radius: 10px;
+  padding-bottom: 18px;
+  height: 35px; /*altura*/
+  width: 20px; /*largura*/
+  position: relative; /*posição original de onde estava localizado*/
+  bottom: 7px; /*posição vertical: mover para cima*/
+}
+/*Efeito do botão (+)*/
+.btnAumentar:hover{
+  background:darkgreen;
+}
+/*---------------------------------------*/
+
+
+
+
+/* Seção de contato */
+#contato {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  #contato h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #contato form {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px #00000027;
+  }
+  
+  #contato label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contato input,
+  #contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #contato textarea {
+    height: 100px;
+  }
+  
+  #contato input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+/* Informações de contato no rodapé */
+.contato {
+float: right;
+    margin-top: auto;
+}
+
+.contato p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+    
+
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .ptm{
+    margin-left: -9%;
+  }
+  
+  footer .redes-sociais {
+    float: right;
+  }
+  
+  footer .redes-sociais a {
+    margin-right: 10px;
+  }
+  
+  footer .direitos {
+    margin-top: 10px;
+  }
+  
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #b30000;
+  }
+  
+  
